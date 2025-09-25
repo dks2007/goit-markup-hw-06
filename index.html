@@ -6,13 +6,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-  />
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"/>
   <link rel="stylesheet" href="./css/styles.css" />
   <link rel="shortcut icon" href="./images/favicon.ico" />
   <title>WebStudio</title>
@@ -20,9 +15,10 @@
 <body>
 
   <header class="page-header">
-    <div class="container div-header footer-container">
+    <div class="container div-header">
       <nav class="nav-header">
-        <a href="./index.html" class="logo">Web<span class="logo-accent">Studio</span></a>
+        <a href="./index.html" class="logo header-logo">Web<span class="logo-accent">Studio</span></a>
+        
         <ul class="nav-list">
           <li><a href="./index.html" class="nav-link current">Studio</a></li>
           <li><a href="" class="nav-link">Portfolio</a></li>
@@ -35,20 +31,42 @@
           <li><a href="tel:+110001111111" class="contact-link">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      <button class="burger-btn" data-menu-open>
+        <svg width="24" height="24" class="burger-icon">
+          <use href="./images/icons.svg#icon-burger"></use>
+      </button>
     </div>
+
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close" data-menu-close>Close</button>
+        <nav class="mobile-menu-nav">
+          afff
+        </nav>
+        <address>
+          dffff
+        </address>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
   </header>
 
-  <main>
-    <!-- 1 Section -->
-    <section class="hero">
+   <main>
+
+    <section class="hero hidden">
       <div class="container">
         <h1 class="hero-h-first">Effective Solutions for Your Business</h1>
         <button type="button" class="hero-btn" data-modal-open>Order Service</button>
       </div>
     </section>
 
-    <!-- 2 Section -->
-    <section class="features">
+    <section class="features hidden">
       <div class="container">
         <h2 class="visually-hidden">Features</h2>
         <ul class="features-menu">
@@ -65,7 +83,7 @@
           </li>
           <li class="section-two-li">
             <div class="features-icons">
-              <svg width="64" height="64">
+              <svg width="64" height="64 vis">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
@@ -100,8 +118,7 @@
       </div>
     </section>
 
-    <!-- 3 Section -->
-    <section class="team">
+    <section class="team hidden">
       <div class="container div-team-section">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -194,8 +211,8 @@
       </div>
     </section>
 
-    <!-- 4 Section -->
-    <section class="our-portfolio">
+    
+    <section class="our-portfolio hidden">
       <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -281,7 +298,7 @@
     </section>
   </main>
 
-  <footer class="page-footer">
+  <footer class="page-footer hidden">
     <div class="container footer-container">
       <div class="footer-box">
         <a href="./index.html" class="logo footer">Web<span class="logo-footer">Studio</span></a>
@@ -331,7 +348,7 @@
             </label>
               <button type="submit" class="resum-btn">Subscribe
                 <svg width="24" height="24" class="icon-svg icon-svg-arrow">
-                  <use href="./images/icons.svg#icon-check"></use>
+                  <use href="./images/icons.svg#icon-icon-send"></use>
                 </svg>
               </button>
           </form>
@@ -339,7 +356,7 @@
     </div>  
   </footer>
 
-  <div class="backdrop" data-modal>
+  <div class="backdrop hidden" data-modal>
     <div class="modal">
       <!-- кнопка закриття -->
       <button type="button" class="modal-ct-btn" data-modal-close>
@@ -437,5 +454,6 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 </html>
