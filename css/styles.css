@@ -762,3 +762,117 @@ background-color: #ffffff;
 .papagemabodi:focus {
   border-color: #4D5AE5;
   }
+
+  /* ---------- @Media ---------- */
+
+/* --- Адаптив для планшета 768px --- */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 0 10px;
+  }
+
+  /* Навігація */
+  .nav-header .nav-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero-h-first {
+    font-size: 28px;
+  }
+
+  .hero-btn {
+    padding: 12px 20px;
+  }
+
+  /* Features */
+  .features-menu {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-two-li {
+    flex: 1 1 100%;
+  }
+
+  /* Team */
+  .team-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .team-li {
+    flex: 1 1 100%;
+  }
+
+  /* Portfolio */
+  .portfolio-li {
+    flex: 1 1 48%;
+    margin-bottom: 20px;
+  }
+
+  /* Footer */
+  .page-footer {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+/* --- Адаптив для телефону 320px --- */
+@media screen and (max-width: 320px) {
+  .container {
+    width: 95%;
+    padding: 0 5px;
+  }
+
+  /* Навігація */
+  .nav-header .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero-h-first {
+    font-size: 20px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Features */
+  .features-menu,
+  .team-list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section-two-li,
+  .team-li {
+    flex: 1 1 100%;
+  }
+
+  /* Portfolio */
+  .portfolio-li {
+    flex: 1 1 100%;
+  }
+
+  /* Footer */
+  .page-footer {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
