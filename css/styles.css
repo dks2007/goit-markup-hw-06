@@ -651,10 +651,12 @@ button {
 
 @media screen and (min-width: 1158px) {
   .team-list {
-    gap: 32px;
+    gap: 24px;
   }
 
   .team-li {
-    width: calc((100% - 64px) / 4); /* картка займає четверту ширину мінус відступ */
+      flex-basis: calc((100% - 72px) / 4);
+  flex-grow: 0;
+  flex-shrink: 0; /* картка займає четверту ширину мінус відступ */
   }
 }
