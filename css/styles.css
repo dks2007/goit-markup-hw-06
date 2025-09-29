@@ -655,8 +655,6 @@ button {
   }
 
   .team-li {
-      flex-basis: calc((100% - 72px) / 4);
-  flex-grow: 0;
-  flex-shrink: 0; /* картка займає четверту ширину мінус відступ */
+      width: calc((100% - 3 * 24px) / 4);
   }
 }
