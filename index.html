@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <header class="page-header hidden">
+  <header class="page-header ">
     <div class="container div-header">
       <nav class="nav-header">
         <a href="./index.html" class="logo header-logo">Web<span class="logo-accent">Studio</span></a>
@@ -39,18 +39,51 @@
 
     <div class="mobile-menu" data-menu>
       <div class="container mobile-menu-container">
-        <button class="mobile-menu-close" data-menu-close>Close</button>
+        <button class="mobile-menu-close" data-menu-close>
+          <svg width="8" height="8" class="icon-svg-close icon-svg-back">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+        </button>
         <nav class="mobile-menu-nav">
-          afff
+          <ul class="mobile-munu-ul">
+            <li><a href="./index.html" class="mobile-menu-menu current">Studio</a></li>
+            <li><a href="" class="mobile-menu-menu">Portfolio</a></li>
+            <li><a href="" class="mobile-menu-menu">Contacts</a></li>
+          </ul>
         </nav>
         <address>
-          dffff
+          <li class="contacts-li-mobile"><a href="mailto:info@devstudio.com" class="contact-link-mobile">info@devstudio.com</a></li>
+          <li class="contacts-li-mobile"><a href="tel:+110001111111" class="contact-link-mobile">+11 (000) 111-11-11</a></li>
         </address>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+         <ul class="mobile-svg">
+          <li class="footer-li">
+            <a href="" class="icon-link svg-mobile">
+              <svg width="24" height="24" class="icon-svg">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-li">
+            <a href="" class="icon-link">
+              <svg width="24" height="24" class="icon-svg">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-li">
+            <a href="" class="icon-link">
+              <svg width="24" height="24" class="icon-svg">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-li">
+            <a href="" class="icon-link">
+              <svg width="24" height="24" class="icon-svg">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -59,14 +92,14 @@
 
    <main>
 
-    <section class="hero hidden">
+    <section class="hero ">
       <div class="container">
         <h1 class="hero-h-first">Effective <br class="where-up-none"> Solutions <br class="where-up-none"> for Your <br class="where-up-none"> Business</h1>
         <button type="button" class="hero-btn" data-modal-open>Order Service</button>
       </div>
     </section>
 
-    <section class="features hidden">
+    <section class="features ">
       <div class="container">
         <h2 class="visually-hidden">Features</h2>
         <ul class="features-menu">
@@ -118,7 +151,7 @@
       </div>
     </section>
 
-    <section class="team hidden">
+    <section class="team ">
       <div class="container div-team-section">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
@@ -211,7 +244,7 @@
       </div>
     </section>
 
-    <section class="our-portfolio hidden">
+    <section class="our-portfolio ">
       <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -300,7 +333,7 @@
   <footer class="page-footer">
     <div class="container footer-container">
       <div class="footer-box">
-        <a href="./index.html" class="logo footer">Web<span class="logo-footer">Studio</span></a>
+        <a href="./index.html" class="logo">Web<span class="logo-footer">Studio</span></a>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
@@ -337,7 +370,6 @@
             </a>
           </li>
         </ul>
-
       </div>
         <div class="footer-resum">
           <p class="footer-resum-p">Subscribe</p>
@@ -355,7 +387,7 @@
     </div>  
   </footer>
 
-  <div class="backdrop" data-modal>
+  <div class="backdrop " data-modal>
     <div class="modal">
       <!-- кнопка закриття -->
       <button type="button" class="modal-ct-btn" data-modal-close>
