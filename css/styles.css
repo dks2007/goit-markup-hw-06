@@ -8,12 +8,18 @@ body {
 
 /* reset */ 
 
+.span-span {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 
 h1,
 h2,
@@ -1058,15 +1064,16 @@ color: #fff;
 .page-footer {
   background-color: #2e2f42;
   padding: 80px 0;
+  display: flex;
 }
-
 
 
 .footer-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  column-gap: 24px;
+
 }
 
 .form-resum {
@@ -1609,4 +1616,8 @@ background-color: #ffffff;
       min-height: 584px;
     }
 
+    .span-span {
+  margin-left: 20px;
+  margin-top: 5px;
+}
   }
