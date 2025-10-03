@@ -702,20 +702,7 @@ color: #434455;
     width: calc((100% - 24px) / 2); /* картка займає половину ширини мінус відступ */
     margin-bottom: 0; /* прибираємо нижній відступ, оскільки використовується flex-wrap */
     max-width: 264px;
-  }
-
-  .team-li:nth-child(1) {
-        background-image:url("/images/markplanset1x-min.jpg");
-    background-image: image-set(
-     url("/images/markplanset1x-min.jpg") 1x,
-     url("/images/markplanset2x-min.jpg") 2x
-     );
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  
+  }  
 }
 
 @media screen and (min-width: 1158px) {
@@ -761,7 +748,6 @@ color: #434455;
 }
 
 .portfolio-li {
-  max-width: 264px;
   position: relative;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: #fff;
