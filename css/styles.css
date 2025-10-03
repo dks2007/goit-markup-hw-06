@@ -704,6 +704,17 @@ color: #434455;
     max-width: 264px;
   }
 
+  .team-li:nth-child(1) {
+        background-image:url("/images/markplanset1x-min.jpg");
+    background-image: image-set(
+     url("/images/markplanset1x-min.jpg") 1x,
+     url("/images/markplanset2x-min.jpg") 2x
+     );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   
 }
 
