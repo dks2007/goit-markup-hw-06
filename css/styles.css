@@ -416,7 +416,7 @@ color: #434455;
   max-width: 768px;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
   ),url("../images/tab/Dark-bg-tab-1x-min.jpg");
 }
 
@@ -424,7 +424,7 @@ color: #434455;
   .hero {
     background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
     ),url("../images/tab/Dark-bg-tab-2x-min.jpg");
   }
 }
