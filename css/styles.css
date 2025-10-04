@@ -345,7 +345,7 @@ color: #434455;
 /*!SECTION section 1 - Hero */
 
 .hero {
-  padding: 72px 52px 204px;
+  padding: 72px 0;
   background-image: 
   linear-gradient(rgba(46, 47, 66, 0.7),rgba(46,47,66,0.7)), url("../images/mob/Dark-bg-mob-1x-min.jpg");
   background-repeat: no-repeat;
@@ -412,7 +412,7 @@ color: #434455;
   }
 
 .hero {
-  padding: 112px 136px 204px;
+  padding: 112px 0;
   max-width: 768px;
   background-image: linear-gradient(
     rgba(46, 47, 66, 0.7),
